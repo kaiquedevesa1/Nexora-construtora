@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXORA Construções — Arquitetura e construção de alto padrão</title>
+    <meta
+      name="description"
+      content="A Nexora projeta e constrói residências e espaços comerciais de alto padrão — do primeiro traço à entrega das chaves."
+    />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="is-loading">
+    <a class="skip-link" href="#projetos">Pular para o conteúdo</a>
+
+    <!-- ============ PRELOADER ============ -->
+    <div class="preloader" aria-hidden="true">
+      <div class="preloader__inner">
+        <div class="preloader__word" data-split-chars>NEXORA</div>
+        <div class="preloader__tag">CONSTRUÇÕES</div>
+        <div class="preloader__line"><span></span></div>
+      </div>
+    </div>
+
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ============ NAV ============ -->
+    <header class="nav" id="nav">
+      <a class="nav__brand" href="#inicio" data-scroll-to>
+        NEXORA<span>construções</span>
+      </a>
+      <nav class="nav__links" aria-label="Navegação principal">
+        <a href="#projetos" data-scroll-to>Projetos</a>
+        <a href="#servicos" data-scroll-to>Serviços</a>
+        <a href="#processo" data-scroll-to>Processo</a>
+        <a href="#contato" data-scroll-to>Contato</a>
+      </nav>
+      <a class="btn btn--ghost nav__cta" href="#contato" data-scroll-to
+        >Solicitar orçamento</a
+      >
+      <button
+        class="nav__burger"
+        id="burger"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <!-- menu mobile -->
+    <div class="menu" id="menu" aria-hidden="true">
+      <nav class="menu__links" aria-label="Menu">
+        <a href="#projetos" data-scroll-to>Projetos</a>
+        <a href="#servicos" data-scroll-to>Serviços</a>
+        <a href="#processo" data-scroll-to>Processo</a>
+        <a href="#contato" data-scroll-to>Contato</a>
+      </nav>
+      <a class="btn btn--solid" href="#contato" data-scroll-to
+        >Solicitar orçamento</a
+      >
+    </div>
+
+    <main>
+      <!-- ============ HERO / TEASER REVEAL (estilo MODUS) ============ -->
+      <section class="hero" id="inicio">
+        <div class="hero__sky" aria-hidden="true"></div>
+
+        <div class="hero__meta">
+          <p>Projetos sob medida,<br />do terreno à entrega.</p>
+          <p>Engenharia precisa.<br />Estética atemporal.</p>
+          <p>Espaços para viver —<br />e para durar.</p>
+        </div>
+
+        <!-- a palavra fica atrás da casa: o PNG tem o céu transparente -->
+        <h1 class="hero__title" aria-label="Nexora" data-split-chars>NEXORA</h1>
+
+        <div class="hero__canvas" aria-hidden="true">
+          <img
+            class="hero__cutout"
+            src="assets/horizon-cutout.png"
+            alt=""
+            fetchpriority="high"
+          />
+        </div>
+        <span class="sr-only"
+          >Residência moderna de concreto e madeira ao entardecer, com a cidade
+          ao fundo — projeto Nexora.</span
+        >
+
+        <div class="hero__chips">
+          <span class="chip">Residencial</span>
+          <span class="chip">Comercial</span>
+          <span class="chip">Retrofit</span>
+        </div>
+        <div class="hero__brandmark">NEXORA<sup>®</sup></div>
+
+        <div class="hero__scrollcue" aria-hidden="true">
+          <span class="hero__scrollcue-line"></span>
+          <span class="hero__scrollcue-text">role para explorar</span>
+        </div>
+      </section>
+
+      <!-- ============ MANIFESTO ============ -->
+      <section class="manifesto">
+        <div class="u-container">
+          <p class="kicker"><span class="kicker__line"></span>A construtora</p>
+          <h2 class="manifesto__text" data-split-words>
+            Construímos cenários para a vida acontecer — do primeiro traço à
+            entrega das chaves, com a precisão de quem assina cada detalhe.
+          </h2>
+          <p class="manifesto__sub anim-up">
+            Há 15 anos, a Nexora une engenharia rigorosa e desenho autoral para
+            entregar residências e espaços comerciais que atravessam gerações.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ PROJETOS / STORYTELLING PINADO ============ -->
+      <section class="story" id="projetos">
+        <div class="story__pin">
+          <div class="story__media" aria-hidden="true">
+            <figure class="story__scene" data-scene="0">
+              <img
+                src="assets/project-alph.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="story__scene" data-scene="1">
+              <img
+                src="assets/project-villa.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="story__scene" data-scene="2">
+              <img
+                src="assets/project-commercial.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <div class="story__scrim"></div>
+          </div>
+
+          <header class="story__head">
+            <p class="kicker kicker--light">
+              <span class="kicker__line"></span>Projetos selecionados
+            </p>
+          </header>
+
+          <div class="story__copy">
+            <article class="story__chapter" data-chapter="0">
+              <p class="story__meta anim">Residencial · 480 m² · 2025</p>
+              <h3 class="story__name anim">Casa Horizonte</h3>
+              <p class="story__desc anim">
+                Volumes de concreto aparente e madeira carbonizada suspensos
+                sobre a cidade. Uma casa desenhada para o pôr do sol.
+              </p>
+            </article>
+            <article class="story__chapter" data-chapter="1">
+              <p class="story__meta anim">Residencial · 620 m² · 2024</p>
+              <h3 class="story__name anim">Villa Serra</h3>
+              <p class="story__desc anim">
+                Borda infinita e transição total entre interior e paisagem, no
+                ponto mais alto da serra.
+              </p>
+            </article>
+            <article class="story__chapter" data-chapter="2">
+              <p class="story__meta anim">Comercial · 1.800 m² · 2023</p>
+              <h3 class="story__name anim">Moda Archive</h3>
+              <p class="story__desc anim">
+                Flagship com fachada de vidro e brise de madeira — arquitetura
+                que apresenta a marca antes da vitrine.
+              </p>
+            </article>
+          </div>
+
+          <div class="story__count" aria-hidden="true">
+            <span class="story__count-window">
+              <span class="story__count-track"
+                ><span>01</span><span>02</span><span>03</span></span
+              >
+            </span>
+            <span class="story__count-total">/ 03</span>
+          </div>
+
+          <div class="story__progress" aria-hidden="true"><span></span></div>
+        </div>
+      </section>
+
+      <!-- ============ SERVIÇOS / CARDS ============ -->
+      <section class="services" id="servicos">
+        <div class="u-container">
+          <header class="section-head">
+            <div>
+              <p class="kicker"><span class="kicker__line"></span>Serviços</p>
+              <h2 class="section-head__title" data-split-words>
+                O que entregamos
+              </h2>
+            </div>
+            <p class="section-head__sub anim-up">
+              Quatro frentes, um mesmo padrão: projeto claro, canteiro
+              organizado e acabamento de galeria.
+            </p>
+          </header>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <article class="card">
+                <div class="card__top">
+                  <span class="card__num">01</span>
+                  <span class="card__arrow" aria-hidden="true">→</span>
+                </div>
+                <h3 class="card__title">Residencial de alto padrão</h3>
+                <p class="card__desc">
+                  Casas autorais construídas do zero, com gestão completa do
+                  terreno à mudança.
+                </p>
+                <figure class="card__media">
+                  <img
+                    src="assets/interior-bath.jpg"
+                    alt="Banheiro em pedra cinza com banheira e iluminação indireta"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </figure>
+              </article>
+            </div>
+
+            <div class="card-wrap">
+              <article class="card">
+                <div class="card__top">
+                  <span class="card__num">02</span>
+                  <span class="card__arrow" aria-hidden="true">→</span>
+                </div>
+                <h3 class="card__title">Comercial &amp; corporativo</h3>
+                <p class="card__desc">
+                  Flagships, sedes e espaços que traduzem a marca em arquitetura
+                  construída.
+                </p>
+                <figure class="card__media">
+                  <img
+                    src="assets/luna.png"
+                    alt="Fachada comercial de vidro com brise de madeira"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </figure>
+              </article>
+            </div>
+
+            <div class="card-wrap">
+              <article class="card">
+                <div class="card__top">
+                  <span class="card__num">03</span>
+                  <span class="card__arrow" aria-hidden="true">→</span>
+                </div>
+                <h3 class="card__title">Reformas &amp; retrofit</h3>
+                <p class="card__desc">
+                  Transformação de espaços existentes com engenharia precisa e o
+                  mínimo de transtorno.
+                </p>
+                <figure class="card__media">
+                  <img
+                    src="assets/interior-kitchen.jpg"
+                    alt="Cozinha reformada com ilha de mármore e marcenaria em nogueira"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </figure>
+              </article>
+            </div>
+
+            <div class="card-wrap">
+              <article class="card">
+                <div class="card__top">
+                  <span class="card__num">04</span>
+                  <span class="card__arrow" aria-hidden="true">→</span>
+                </div>
+                <h3 class="card__title">Gestão de obra</h3>
+                <p class="card__desc">
+                  Planejamento, cronograma e canteiro sob controle — do alicerce
+                  à chave.
+                </p>
+                <figure class="card__media">
+                  <img
+                    src="assets/construction-site.jpg"
+                    alt="Equipe concretando laje em canteiro de obras organizado"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ STATS ============ -->
+      <section class="stats">
+        <div class="u-container stats__grid">
+          <div class="stat anim-up">
+            <p class="stat__value"><span data-count="120">0</span>+</p>
+            <p class="stat__label">Projetos entregues</p>
+          </div>
+          <div class="stat anim-up">
+            <p class="stat__value"><span data-count="85">0</span> mil</p>
+            <p class="stat__label">m² construídos</p>
+          </div>
+          <div class="stat anim-up">
+            <p class="stat__value"><span data-count="15">0</span></p>
+            <p class="stat__label">Anos de mercado</p>
+          </div>
+          <div class="stat anim-up">
+            <p class="stat__value"><span data-count="98">0</span>%</p>
+            <p class="stat__label">De clientes que indicam</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROCESSO PINADO ============ -->
+      <section class="process" id="processo">
+        <div class="process__pin">
+          <div class="u-container process__grid">
+            <div class="process__left">
+              <p class="kicker"><span class="kicker__line"></span>Processo</p>
+              <h2 class="section-head__title process__title" data-split-words>
+                Do traço à chave
+              </h2>
+              <div class="process__media" aria-hidden="true">
+                <figure class="process__frame" data-frame="0">
+                  <img
+                    src="assets/blueprint.jpg"
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </figure>
+                <figure class="process__frame" data-frame="1">
+                  <img
+                    src="assets/construction-site.jpg"
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </figure>
+                <figure class="process__frame" data-frame="2">
+                  <img
+                    src="assets/hero-forest-house.jpg"
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </figure>
+              </div>
+            </div>
+
+            <div class="process__steps">
+              <div class="process__rail" aria-hidden="true"><span></span></div>
+              <article class="step" data-step="0">
+                <span class="step__num">01</span>
+                <div>
+                  <h3 class="step__title">Briefing &amp; terreno</h3>
+                  <p class="step__desc">
+                    Entendemos o modo de viver, o orçamento e o potencial do
+                    terreno antes de qualquer traço.
+                  </p>
+                </div>
+              </article>
+              <article class="step" data-step="1">
+                <span class="step__num">02</span>
+                <div>
+                  <h3 class="step__title">Projeto &amp; aprovações</h3>
+                  <p class="step__desc">
+                    Arquitetura, projetos complementares e licenças caminhando
+                    juntos, sem surpresas.
+                  </p>
+                </div>
+              </article>
+              <article class="step" data-step="2">
+                <span class="step__num">03</span>
+                <div>
+                  <h3 class="step__title">Execução &amp; gestão</h3>
+                  <p class="step__desc">
+                    Canteiro organizado, cronograma visível e qualidade auditada
+                    etapa por etapa.
+                  </p>
+                </div>
+              </article>
+              <article class="step" data-step="3">
+                <span class="step__num">04</span>
+                <div>
+                  <h3 class="step__title">Entrega &amp; pós-obra</h3>
+                  <p class="step__desc">
+                    Entrega assistida, manual da casa e acompanhamento no
+                    primeiro ano de uso.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CTA FINAL ============ -->
+      <section class="cta" id="contato">
+        <div class="cta__ghost" aria-hidden="true">NEXORA</div>
+        <div class="u-container cta__inner">
+          <p class="kicker">
+            <span class="kicker__line"></span>Próximo projeto
+          </p>
+          <h2 class="cta__title" data-split-words>
+            Vamos construir o que vem a seguir?
+          </h2>
+          <p class="cta__sub anim-up">
+            Conte sobre o terreno, o espaço ou a ideia. Respondemos em até
+            48&nbsp;horas com os primeiros caminhos.
+          </p>
+          <a
+            class="btn btn--solid cta__btn anim-up"
+            href="mailto:contato@nexora.com.br"
+            id="cta-btn"
+            >Solicitar orçamento</a
+          >
+          <div class="cta__contacts anim-up">
+            <a href="mailto:contato@nexora.com.br">contato@nexora.com.br</a>
+            <span aria-hidden="true">·</span>
+            <a href="tel:+551140028922">+55 (11) 4002-8922</a>
+            <span aria-hidden="true">·</span>
+            <span>São Paulo — SP</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="u-container footer__grid">
+        <div class="footer__brand">
+          <img
+            class="footer__logo"
+            src="assets/logo.png"
+            alt="Nexora Construções"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+        <nav class="footer__nav" aria-label="Rodapé">
+          <a href="#projetos" data-scroll-to>Projetos</a>
+          <a href="#servicos" data-scroll-to>Serviços</a>
+          <a href="#processo" data-scroll-to>Processo</a>
+          <a href="#contato" data-scroll-to>Contato</a>
+        </nav>
+        <div class="footer__info">
+          <p>contato@nexora.com.br</p>
+          <p>+55 (11) 4002-8922</p>
+          <p>São Paulo — SP</p>
+        </div>
+      </div>
+      <div class="u-container footer__bottom">
+        <p>© 2026 Nexora Construções. Todos os direitos reservados.</p>
+        <p>Feito com precisão.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+    <script>
+      // Sem CDN (offline) ou sem JS: página aparece estática, sem preloader.
+      window.addEventListener("DOMContentLoaded", function () {
+        if (!window.gsap) document.documentElement.classList.add("no-anim");
+      });
+    </script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

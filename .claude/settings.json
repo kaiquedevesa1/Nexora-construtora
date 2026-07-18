@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Start-Process \"c:\\\\Users\\\\kaike\\\\OneDrive\\\\Desktop\\\\nexora\\\\index.html\")"
+    ]
+  }
+}
